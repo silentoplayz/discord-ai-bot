@@ -1,7 +1,7 @@
 import { ShardingManager, Events } from "discord.js";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { Logger, LogLevel } from "meklog";
+import { Logger, LogLevel } from "./logger.js";
 import dotenv from "dotenv";
 
 dotenv.config();

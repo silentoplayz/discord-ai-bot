@@ -7,7 +7,7 @@ import {
 	REST,
 	Routes
 } from "discord.js";
-import { Logger, LogLevel } from "meklog";
+import { Logger, LogLevel } from "./logger.js";
 import dotenv from "dotenv";
 import axios from "axios";
 import commands from "./commands/commands.js";
